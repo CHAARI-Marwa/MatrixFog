@@ -23,8 +23,6 @@ def main():
         matrix, matrix1, matrix2 = pickle.loads(data)
         print("Matrice reçue :")
         print(matrix)
-        print("Matrice 1 reçue :")
-        print(matrix1)
         print("Matrice 2 reçue :")
         print(matrix2)
     except Exception as e:
